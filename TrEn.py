@@ -13,7 +13,7 @@ from unicurses import *
 user_name = getuser()
 cur_dir = os.getcwd()
 file_counter = 0
-os.chdir('/home/leo/')
+os.chdir('/home/%s/'%user_name)
 
 class get_words_from_net:
     def arg_1(self, file_name):
